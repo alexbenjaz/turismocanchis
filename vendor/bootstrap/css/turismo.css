@@ -1,8 +1,98 @@
-h1 {
-	background: rgba(7,89,200,1.00);
-	color: 
+
+
+
+li.dropdown a {
+	
+color:aqua;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	
 }
 
 body {
-	background-image: url(../../../images/PHOTO_20170413_164434_fx.jpg)
+	background-image: url( ../../../images/PHOTO_20170413_164434_fx.jpg)
+}
+
+.container-fluid {
+	
+	background:  rgba(5,21,82,0.58);
+	color:rgba(128,213,255,1.00)
+}
+.navbar-default {
+	background:  rgba(0,0,0,0.77)
+}
+
+
+
+ul.dropdown-menu {
+	background: rgba(0,10,69,0.66);
+	
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
+
+img {
+	padding: 10px;
+	
+	float:none
+}
+
+h2.canchis {
+	margin-left: 18px;
+	margin-top: -5px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 20px
+	
+}
+
+#carousel1 {
+	margin-top:50px;
+	background:fixed
+		
+}
+
+
+div.carousel-caption h3 {
+	color:rgba(255,0,4,1.00);
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+div.carousel-caption p {
+	color:aliceblue;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+}
+a.navbar-brand {
+	color:aliceblue;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+}
+
+
+.carousel-caption {
+	background: rgba(0,0,0,0.36);
+	border-radius: 20px 20px 0px 0px
+}
+
+a {
+	background:rgba(0,0,0,0.23);
+	color: aqua
+}
+
+
+.col-md-12 {
+	color:aliceblue;
+	text-align: center;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	border-bottom:  rgba(0,124,255,1.00) 1px  dotted;
+	padding: 15px
+	
+}
+.col-md-12 img {
+	border: rgba(255,255,255,0.28)1px dotted;
+	
+}
+
+img.imguno {
+	margin-top: 70px
+}
+
+.icon-bar {
+	background: rgba(0,255,195,1.00)
 }
