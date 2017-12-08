@@ -56,7 +56,7 @@ font-family: 'Boogaloo', cursive;
 }
 
 #carousel1 {
-	margin-top:50px;
+	margin-top:65px;
 	background:fixed
 		
 }
@@ -69,6 +69,7 @@ div.carousel-caption h3 {
 div.carousel-caption p {
 	color:aliceblue;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"; 
+	text-align: center
 }
 a.navbar-brand {
 	color:aliceblue;
@@ -78,7 +79,10 @@ a.navbar-brand {
 
 .carousel-caption {
 	background: rgba(0,0,0,0.36);
-	border-radius: 20px 20px 0px 0px
+	border-radius: 20px 20px 0px 0px;
+	margin-left:250px;
+	margin-right:250px;
+	margin-top: 800px
 }
 
 a {
@@ -206,3 +210,7 @@ section.redd div.row {
 }
 
 
+
+.col-lg-1 {
+	margin-top: 80px
+}
