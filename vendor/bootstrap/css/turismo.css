@@ -214,3 +214,74 @@ section.redd div.row {
 .col-lg-1 {
 	margin-top: 80px
 }
+
+
+
+
+
+
+
+.nav img {
+	margin:-19px
+}
+
+.secc {
+	background: rgba(181,0,3,0.73);
+	border-radius: 10px;
+font-size: 30px;
+	margin-top: 82px
+}
+
+.modal-body {
+	color: aliceblue;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+
+}
+
+
+.mm {
+	background:rgba(255,255,255,0.83);
+}
+
+.mm2 {
+	font-family: 'Josefin Slab', serif;
+font-family: 'Boogaloo', cursive;
+	font-size: 28px ;
+	color: rgba(21,62,255,1.00)
+}
+
+
+.mm2 img {
+float: left
+	
+}
+.modal-title {
+	font-size: 40px;
+	color: rgba(189,2,5,1.00)
+}
+
+
+
+div.RR {
+	background: rgba(114,0,1,0.84);
+	margin-left:120px;
+	margin-right:120px;
+	font-size:20px;
+border-radius: 50px	
+}
+
+div.RR li {
+	display: inline
+}
+div.RR a {
+	color:rgba(255,249,178,1.00)
+	
+}
+
+h4.subb {
+	background: rgba(134,4,6,0.87);
+	border-radius: 20px;
+	padding-left: 30px;
+	color:rgba(255,250,188,1.00);
+	margin-right: 300px
+}
