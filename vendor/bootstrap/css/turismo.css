@@ -34,7 +34,7 @@ ul.dropdown-menu {
 	background: rgba(0,10,69,0.66);
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;
-	font-size: 20px;
+	font-size: 30px;
 
 		
 }
@@ -73,7 +73,8 @@ div.carousel-caption p {
 }
 a.navbar-brand {
 	color:aliceblue;
-	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 30px
 }
 
 
@@ -128,14 +129,14 @@ font-family: 'Boogaloo', cursive;
 
 
 section.con div {
-	background:   rgba(255,255,255,0.48);
+	background: rgba(151,0,2,0.66);
 	padding: 20px;
-	color: rgba(0,0,0,1.00);
+	color:rgba(249,255,161,1.00);
 	border-radius: 5px;
-	border-top: rgba(255,255,255,1.00) dotted 10px;
-	border-bottom: rgba(255,255,255,1.00) dotted 10px;
-	
-	
+}
+
+section.con {
+	border: rgba(246,255,197,1.00) solid 1px
 }
 
 section.con img {
@@ -285,3 +286,21 @@ h4.subb {
 	color:rgba(255,250,188,1.00);
 	margin-right: 300px
 }
+
+div.butt {
+	background: rgba(0,5,108,0.67);
+	margin-left: 250px;
+		margin-right: 295px;
+	border-radius: 18px;
+		
+}
+
+
+
+
+
+
+
+
+
+
