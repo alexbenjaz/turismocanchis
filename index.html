@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Canchis-hermoso</title>
 <!--fonts-fuentes----------------------------------------------------------------------->
 <link href="fonts/BadScript-Regular.ttf" rel="stylesheet">
@@ -10,21 +11,24 @@
 <link href="fonts/Kalam-Bold.ttf" rel="stylesheet">
 <link href="fonts/Kalam-Light.ttf" rel="stylesheet">
 <link href="fonts/BadScript-Regular.ttf" rel="stylesheet">
-<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css"> -->
+<link href="vendor/bootstrap/css/bootstrap-3.3.7.css" rel="stylesheet" type="text/css">
 <link href="vendor/bootstrap/css/turismo.css" rel="stylesheet" type="text/css">
-<script src="vendor/bootstrap/js/jquery.js"></script>
+<!-- <script src="vendor/bootstrap/js/jquery.js"></script> -->
+<script src="js/bootstrap-3.3.7.js"></script>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-	
-	<link href="https://fonts.googleapis.com/css?family=Boogaloo|Josefin+Slab" rel="stylesheet">
-	
-	 <link href="vendor/bootstrap/css/material-kit.css" rel="stylesheet"/>
-      
-	 <link href="vendor/bootstrap/css/core.css" rel="stylesheet"/>
-	
-	 <link href="vendor/bootstrap/css/slide.css" rel="stylesheet"/>
-	
-	 <link href="vendor/bootstrap/css/lgray.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Boogaloo|Josefin+Slab" rel="stylesheet">
+<link href="vendor/bootstrap/css/material-kit.css" rel="stylesheet"/>
+<link href="vendor/bootstrap/css/core.css" rel="stylesheet"/>
+<link href="vendor/bootstrap/css/slide.css" rel="stylesheet"/>
+<link href="vendor/bootstrap/css/lgray.css" rel="stylesheet"/>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
 </head>
 
 <body>
@@ -41,7 +45,7 @@
 	  
 	    <!-- /.navbar-collapse -->
   
-	  <!-- /.container-fluid -->
+  <!-- /.container-fluid -->
 </nav>
 
 	
@@ -70,7 +74,7 @@
   </nav>
 	
 	
-	<ul class="menu lgray slide navbar-fixed-top" id="menu">
+  <ul class="menu lgray slide navbar-fixed-top" id="menu">
 	
 	<li><a href="index.html">INICIO</a>
 		<!-- start level 2 -->
@@ -217,35 +221,60 @@
 		
 		<li class="floatr navbar-toggle collapsed"><a ><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
 		<!-- start mega menu -->
-		<div class="cols2">
-			<div class="col1">
-				<h5>visita a estos lugares</h5>
+	
+			<div class="cols2">
+			  <div class="col1">
+				  <h5>visita a estos lugares</h5>
 				<ol>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Sicuani</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Maranagani</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">San Pablo</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">San Pedro</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Tinta</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Combapata</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Checacupe</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Pitumarca</a></li>
-				</ol>
-			</div>
-			<div class="col1">
-				<h5>visita a estos lugares</h5>
-				<ol>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Sicuani</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Maranagani</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">San Pablo</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">San Pedro</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Tinta</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Combapata</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Checacupe</a></li>
-					<li><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Pitumarca</a></li>
-				</ol>
-			</div>
+					 <li class="dropdown "><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DISTRITOS</a>
+          <ul class="dropdown-menu ">
+            <li><a href="sicuani.html">SICUANI</a></li>
+            <li><a href="#">MARANGANI</a></li>
+            <li><a href="#">SAN PABLO</a></li>
+            <li><a href="#">SAN PEDRO</a></li>
+            <li><a href="#">TINTA</a></li>
+			  <li><a href="#">COMBAPATA</a></li>
+			  <li><a href="#">CHECACUPE</a></li>
+			  <li><a href="#">PITUMARCA</a> </li>
+          </ul>			 
 			
-		</div>
+        </li>
+					<li class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ACTIVIDADES</a>
+          <ul class="dropdown-menu ">
+            <li><a href="#">ANDINISMO</a></li>
+            <li><a href="#">CAMINATA</a></li>
+            <li><a href="#">ARTESANIAS</a></li>
+            <li><a href="#">GASTRONOMIA</a></li>
+            <li><a href="#">CICLISMO DE MONTAÑA</a></li>
+			  <li><a href="#">DESENSO (DOWNHILL DH)</a></li>
+			  <li><a href="#">MOTOCROSS</a></li>
+			 
+          </ul>
+			 
+		</li>
+					
+					   <li class="dropdown "><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">LUGARES</a>
+          <ul class="dropdown-menu ">
+            <li><a href="#">ARQUEOLOGÍA</a></li>
+            <li><a href="#">NATURALEZA</a></li>
+            <li><a href="#">FESTIVIDADES</a></li>
+            <li><a href="#">MUSEOS</a></li>
+            <li><a href="#">IGLESIAS</a></li>
+			  <li><a href="#">ATRACTIVOS URBANOS</a></li>
+			  <li><a href="#">CHECACUPE</a></li>
+			  <li><a href="#">PITUMARCA</a> </li>
+          </ul>
+			
+        </li>
+					<br>
+					<br>
+					<br>
+					
+				</ol>
+				</div>
+			 
+		  
+	</div>
 		<!-- end mega menu -->
 	</li>
 		
@@ -259,7 +288,7 @@
 	<li class="collapse navbar-collapse"  ><a href="https://previews.envatousercontent.com/files/34141749/index.html#">Updates<span class="bubble">23</span></a>
 		
 		<div class="cols4">
-			<div class="col3">
+			<div class="col4">
 				<h4>Two Lists and a Paragraph</h4>
 			</div>
 			<div class="col1">
@@ -339,13 +368,13 @@
         <div class="carousel-caption">
           <h3>DEPORTES </h3>
           <p>deportes extremos
-			</p>
+		  </p>
         </div>
       </div>
     </div>
     <a class="left carousel-control" href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a>
 	
-	</div>
+  </div>
 	
 </div>
 	
@@ -358,7 +387,7 @@
 <button class="btn btn-success">COSTUMBRE</button>
 <button class="btn btn-danger">LUGARES</button>
 <button class="btn btn-white">NOVEDADES</button>
-	  </div>
+</div>
 	
 	
 <!--barra de navegacion ---------------------------------------------------------------------------------------------->
@@ -388,7 +417,7 @@ MAPA UBICACION
  
   
 </div>
-		</div>
+  </div>
     <div class="col-md-12"><img src="images/CAM00784.jpg" class="img-responsive img-rounded"  data-toggle="modal" data-target="#myModal" alt="sicuani">Sicuani-Rio Vilcanota
     
     <!-- Modal Core -->
@@ -429,8 +458,8 @@ MAPA UBICACION
             <div class="dos modal-body">
 				<img src="images/PHOTO_20160831_132052.jpg" width="200"  class="img-responsive img-rounded" alt="sicuani">
 			<p class="modall">Vilcanota puede referirse a: Cordillera Vilcanota: Una cadena montañosa que se extiende por los departamentos de Cusco y Puno; o; Río Vilcanota: Un río afluente del río Ucayali. Commons-emblem-disambig-notice.svg. Esta página de desambiguación cataloga artículos en cuyos títulos o redirecciones existe ...
-				</p>
-			  </div>
+			  </p>
+		    </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
               <button type="button" class="btn btn-info btn-simple">Save</button>
@@ -539,7 +568,7 @@ MAPA UBICACION
 	
 	
 	
-	</div>
+  </div>
  
 </div>
 	
@@ -606,7 +635,7 @@ La provincia de Canchis, tiene una población aproximada de 97.000 habitantes . 
 								
 		                </div>
 							<img src="images/calendario.jpg" class="img-responsive img-rounded" width="150"  alt="Placeholder image"> </div>
-		            </div>
+</div>
 
 	<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 	
