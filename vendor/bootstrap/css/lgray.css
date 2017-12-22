@@ -1,5 +1,5 @@
 .lgray {
-    height: 52px;
+    height: 75px;
    
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgba(134,0,2,0.81);
@@ -18,10 +18,7 @@
 background-color:rgba(0,0,0,0.64);
    border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
-    -webkit-box-shadow: inset 0 1px #eee;
-    -moz-box-shadow: inset 0 1px #eee;
-    box-shadow: inset 0 1px #eee;
-    border-left: none;
+  
     padding-left: 21px
 }
 .lgray>li {
@@ -56,23 +53,17 @@ background-color:rgba(0,0,0,0.64);
     color: #fff;
     background-color: rgba(31,62,248,1.00);
     text-shadow: 0 1px #9d0707;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.4), 0 1px #f1f1f1;
-    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.4), 0 1px #f1f1f1;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.4), 0 1px #f1f1f1
+    
 }
 .lgray>li>a .bubble-alt {
     color: #fff;
     background-color: #737373;
     text-shadow: 0 1px #505050;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.4), 0 1px #f1f1f1;
-    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.4), 0 1px #f1f1f1;
-    box-shadow: inset 0 1px 1px rgba(0,0,0,.4), 0 1px #f1f1f1
+   
 }
 .lgray>li:hover>a .bubble {
     text-shadow: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none
+   
 }
 .lgray ul>li .bubble {
     font-size: 11px;
@@ -112,12 +103,10 @@ background-color:rgba(0,0,0,0.64);
 }
 .lgray ul {
     background-color:rgba(0,0,0,0.77);
-    border: 1px solid rgba(244,255,168,1.00);
+   
     border-top: 0;
     left: -1px;
-    -webkit-box-shadow: 0 2px 1px #ddd;
-    -moz-box-shadow: 0 2px 1px #ddd;
-    box-shadow: 0 2px 1px #ddd
+   
 }
 .lgray>li.floatr>ul {
     right: -1px;
