@@ -6,20 +6,15 @@
   src: local('Boogaloo Regular'), local('Boogaloo-Regular'), url( ../../TUSIMOCANCHIS/fonts/glyphicons-halflings-regular.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
-
-
 li.dropdown a {
 	font-size: 50px;
 color:aqua;
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;	
-	
 }
-
 body {
 	background-image: url( ../../../images/PHOTO_20170413_164434_fx.jpg);
 }
-
 .container-fluid {
 	background:    rgba(3,12,83,0.54);
 	color:rgba(128,213,255,1.00);	
@@ -27,41 +22,29 @@ body {
 font-family: 'Boogaloo', cursive;
 	font: 20px
 }
-
-
-
 ul.dropdown-menu {
 	background: rgba(0,10,69,0.66);
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;
 	font-size: 30px;
-
-		
 }
-
 
 img {
 	padding: 10px;
 	
 	float:none
 }
-
 h2.canchis {
 	margin-left: 18px;
 	margin-top: -5px;
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;
-	font-size: 20px
-	
+	font-size: 20px	
 }
-
 #carousel1 {
 	margin-top:65px;
-	background:fixed
-		
+	background:fixed	
 }
-
-
 div.carousel-caption h3 {
 	color:rgba(255,0,4,1.00);
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
@@ -76,8 +59,6 @@ a.navbar-brand {
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	font-size: 30px
 }
-
-
 .carousel-caption {
 	background: rgba(0,0,0,0.36);
 	border-radius: 20px 20px 0px 0px;
@@ -85,64 +66,48 @@ a.navbar-brand {
 	margin-right:250px;
 	margin-top: 800px
 }
-
 a {
 	background:rgba(0,0,0,0.23);
 	color: aqua;
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;
 }
-
-
 .col-md-12 {
 	color:aliceblue;
 	text-align: center;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	border-bottom:  rgba(0,124,255,1.00) 1px  dotted;
-	padding: 15px
-	
+	padding: 15px	
 }
 .col-md-12 img {
 	border: rgba(255,255,255,0.28)1px dotted;
-	
 }
-
 img.imguno {
 	margin-top: 70px
 }
-
 .icon-bar {
 	background: rgba(0,255,195,1.00)
 }
-
 h3 {
 	font-size: 50px;
 	color: aqua;
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;	
 }
-
 .modal-content {
 	background:   rgba(2,0,50,0.73)
 }
-
-
-
 section.con div {
 	background: rgba(151,0,2,0.66);
 	padding: 20px;
 	color:rgba(249,255,161,1.00);
 	border-radius: 5px;
 }
-
 section.con {
 	border: rgba(246,255,197,1.00) solid 1px
 }
-
 section.con img {
 	border: rgba(6,0,61,1.00)2px dotted;
-	
-		
 }
 h4.subtitle {
 	background: rgba(0,27,114,0.58);
@@ -156,20 +121,13 @@ font-family: 'Boogaloo', cursive;
 	font-size:55px;
 	border-bottom:  rgba(0,13,78,1.00) dotted 5px
 }
-
-
-
 p {
 	text-align: justify;
 	font-size: 15px;
 	font-family: 'Josefin Slab', serif;
 font-family: 'Boogaloo', cursive;
-font-family: 'Overlock', cursive;	
-		
-		
+font-family: 'Overlock', cursive;			
 }
-
-
 .col-sm-offset-11 {
 	margin-top: 64%
 }
@@ -194,11 +152,8 @@ h2.wite {
 p.play {
 	color: antiquewhite;
 	font-size: 20px;
-
-		
+	
 }
-
-
 
 section.redd div.row {
 	background:   rgba(126,0,2,0.64);
@@ -207,19 +162,11 @@ section.redd div.row {
 	margin-bottom: 15px	;
 	padding: 20px
 	
-		
 }
-
-
 
 .col-lg-1 {
 	margin-top: 80px
 }
-
-
-
-
-
 
 
 .nav img {
@@ -236,7 +183,6 @@ font-size: 30px;
 .modal-body {
 	color: aliceblue;
 	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
-
 }
 
 
@@ -250,7 +196,6 @@ font-family: 'Boogaloo', cursive;
 	font-size: 28px ;
 	color: rgba(21,62,255,1.00)
 }
-
 
 .mm2 img {
 float: left
@@ -286,7 +231,6 @@ h4.subb {
 	color:rgba(255,250,188,1.00);
 	margin-right: 300px
 }
-
 div.butt {
 	background: rgba(0,5,108,0.67);
 	margin-left: 250px;
@@ -295,17 +239,19 @@ div.butt {
 		
 }
 
-
-
-
-
-
-
-
-
-
-
 .mapa {
 	background:  rgba(255,251,170,0.89);
 	color: rgba(139,8,0,1.00)
 }
+
+.mod {
+	background: rgba(29,29,29,0.98);
+	text-align: center
+}
+
+.cont {
+	text-align: center;
+	background-image: url(  ../../../images/IMG.jpg)
+}
+
+
